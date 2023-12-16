@@ -107,6 +107,10 @@
     width: auto;
     height: auto;
   }
+
+  #footer {
+    margin-top: 50px;
+  }
 }
 
 /*===== Mobile===== */
