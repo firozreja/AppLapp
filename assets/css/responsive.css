@@ -1,0 +1,121 @@
+/* ===Tablet ==== */
+
+@media screen and (max-width: 992px) {
+  nav {
+    display: none !important;
+  }
+
+  .inner_header .menu_bar {
+    display: inline-block;
+  }
+
+  #banner .inner_banner {
+    flex-direction: column-reverse;
+  }
+
+  #banner .inner_banner .banner_content {
+    margin-left: 99px;
+    margin-top: 30px;
+  }
+
+  .inner_company {
+    row-gap: 23px;
+  }
+
+  .inner_features .features_image img {
+    max-width: 992px;
+    width: 100%;
+  }
+
+  .inner_features {
+    flex-direction: column;
+  }
+
+  .inner_jackpots {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .jack_details {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+  .jack_details .jack_box {
+    flex-basis: 49%;
+  }
+
+  .inner_design {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .inner_design .design_img img {
+    max-width: 992px;
+    width: 100%;
+  }
+
+  #service .inner_service .service_box {
+    flex-basis: 48%;
+  }
+
+  #ultimate_features {
+    background-image: none;
+  }
+  .inner_ultimate {
+    flex-direction: column;
+  }
+
+  .inner_ultimate .ultimate_image img {
+    width: 400px;
+  }
+
+  #income_statement {
+    margin-top: 496px;
+  }
+
+  .inner_statement .income_left {
+    margin: 20px;
+  }
+
+  #client {
+    background-image: none;
+  }
+  .inner_client .client_reviews {
+    margin-left: 0;
+  }
+
+  .inner_client .client_reviews .profile .about_person {
+    column-gap: 100px;
+  }
+
+  .inner_ask {
+    width: auto;
+    height: auto;
+  }
+
+  #download {
+    background-image: none;
+  }
+
+  .inner_ask .ask_desc {
+    width: auto;
+    height: auto;
+  }
+
+  .question_div {
+    width: auto;
+    height: auto;
+  }
+}
+
+/*===== Mobile===== */
+@media screen and (max-width: 768px) {
+  .jack_details .jack_box {
+    flex-basis: 100%;
+  }
+
+  #service .inner_service .service_box {
+    flex-basis: 100%;
+  }
+}
