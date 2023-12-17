@@ -68,6 +68,7 @@
 
   .inner_ultimate .ultimate_image img {
     width: 400px;
+    padding-top: 85px;
   }
 
   #income_statement {
@@ -80,9 +81,6 @@
 
   #client {
     background-image: none;
-  }
-  .inner_client .client_reviews {
-    margin-left: 0;
   }
 
   .inner_client .client_reviews .profile .about_person {
@@ -110,6 +108,11 @@
 
   #footer {
     margin-top: 50px;
+  }
+
+  #footer ul li {
+    margin-left: 16px;
+    text-align: center;
   }
 }
 
